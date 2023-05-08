@@ -1,5 +1,5 @@
 
-# BRAIN HUNT 
+# BRAIN HUNT [VISIT HERE](https://brain-hunt.netlify.app/)
 
 ## DESCRIPTION 
 ***BRAIN HUNT*** is an interesting puzzle web based game for kids. It has **5 levels**.
