@@ -1,0 +1,7 @@
+{
+    "env": {
+        "DB_USER" : "YOUR_USERNAME",
+        "DB_PASSWORD": "YOUR_PASSWORD",
+        "DB_NAME": "YOUR_DATABASENAME"
+    }
+}
