@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  margin : 0;
+  background-color: #ffffff;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25' height='100%25' viewBox='0 0 1600 800'%3E%3Cg stroke='%23000000' stroke-width='98.7' %3E%3Ccircle fill='%23ffffff' cx='0' cy='0' r='1800'/%3E%3Ccircle fill='%23feecee' cx='0' cy='0' r='1700'/%3E%3Ccircle fill='%23fdd9de' cx='0' cy='0' r='1600'/%3E%3Ccircle fill='%23fbc6cd' cx='0' cy='0' r='1500'/%3E%3Ccircle fill='%23fab3bc' cx='0' cy='0' r='1400'/%3E%3Ccircle fill='%23f99fac' cx='0' cy='0' r='1300'/%3E%3Ccircle fill='%23f88c9b' cx='0' cy='0' r='1200'/%3E%3Ccircle fill='%23f6798b' cx='0' cy='0' r='1100'/%3E%3Ccircle fill='%23f5667a' cx='0' cy='0' r='1000'/%3E%3Ccircle fill='%23f45369' cx='0' cy='0' r='900'/%3E%3Ccircle fill='%23f34059' cx='0' cy='0' r='800'/%3E%3Ccircle fill='%23f12d48' cx='0' cy='0' r='700'/%3E%3Ccircle fill='%23f01a37' cx='0' cy='0' r='600'/%3E%3Ccircle fill='%23e60f2d' cx='0' cy='0' r='500'/%3E%3Ccircle fill='%23d30e29' cx='0' cy='0' r='400'/%3E%3Ccircle fill='%23c00c25' cx='0' cy='0' r='300'/%3E%3Ccircle fill='%23ad0b22' cx='0' cy='0' r='200'/%3E%3Ccircle fill='%239A0A1E' cx='0' cy='0' r='100'/%3E%3C/g%3E%3C/svg%3E");
+background-attachment: fixed;
+background-size: cover;
+}
+
+.slide-in-left-enter {
+  transform: translateX(-100%);
+}
+
+.slide-in-left-enter-active {
+  transform: translateX(0);
+  opacity: 1;
+  transition: all 200ms;
+}
+
+.slide-in-left-exit {
+  transform: translateX(0%);
+  opacity: 1;
+}
+
+.slide-in-left-exit-active {
+  transform: translateX(-100%);
+  opacity: 0;
+  transition: all 200ms;
+}
+
+.center {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

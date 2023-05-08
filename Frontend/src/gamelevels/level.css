@@ -1,0 +1,21 @@
+h3{
+    font: inherit;
+    font-size: 3vw;
+    color: white;
+    background: #e3ba06;
+}
+
+h3:hover ,
+h3:active
+{
+    background: #f34343;
+    border-color: #f34343;
+}
+
+h1{
+    color: white;
+}
+
+h4{
+    color:white;
+}

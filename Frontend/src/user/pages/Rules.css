@@ -1,0 +1,26 @@
+/* Set the font and font size for the rules */
+.rule {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    color: white;
+  }
+  
+  /* Style the heading for the rules */
+  .rule h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Add color and contrast to highlight important information */
+  .rule .warning {
+    color: red;
+    font-weight: bold;
+  }
+  
+  /* Use bullet points for a list of rules */
+  .rule ul {
+    list-style-type: disc;
+    margin-left: 20px;
+  }
